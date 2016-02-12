@@ -14,11 +14,17 @@
     text-decoration: none; /* Убирает подчеркивание для ссылок */
    } 
 
+.tops{ vertical-align:top}
 
 #lines{ margin-right:300px; margin-left:30px;}
 
+#txt{letter-spacing: 5px; font-size: 14pt;}
+#ttl{font-size: 14pt; word-spacing:5px;}
+#mainT{font-size:16pt; word-spacing:5px;}
+
 .flex-container {
     display: flex;
+	/*justify-content:center;*/
     align-items: flex-start;
     height: auto; /* Высота контейнера */
 	margin-right:30px;
@@ -42,7 +48,7 @@
 	}
 .item3 { 
 	background: #F2F2F2; 
-	width:20%
+	width:20%;
 	}
 
 .item4 {  
