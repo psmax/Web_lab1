@@ -1,63 +1,110 @@
-#menu {
+.menu ul{
+	list-style-type:none;
+	padding:0;
+	height:40px;
+    line-height: 40px;
+	border-radius:4px;
 	background-color:#F2F2F2;
-	height:25px;
-	padding-left:10px;
-	margin-left:30px;
-	margin-right:30px;
-	margin-top:20px;
 	margin-bottom:25px;
+	margin-top:25px;
+}
+ 
+.menu li{
+	display:inline-block;
+	margin-left:10px;
+	padding:0;
 }
 
-.radius{border-radius:4px;}
+.menu li a{
+    padding: 0 8px;
+}
 
- A {
-    text-decoration: none; /* Убирает подчеркивание для ссылок */
-   } 
+.menu li .activ{
+	color: #000!important;
+    background-color: #fff;
+	border-top-left-radius: 4px;
+    border-top-right-radius: 4px;    
+    padding: 1px 12px 12px 12px;
+	position: relative;
+	height:33px;
+}
 
-.tops{ vertical-align:top}
+.main{
+	box-sizing: border-box;
+    min-width: 1000px;
+    max-width: 1280px;
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
 
-#lines{ margin-right:300px; margin-left:30px;}
-
+a {text-decoration: none;} 
+.tops{
+	vertical-align:top;
+	padding:0;
+}
+#lines{ margin-right:270px; }
 #txt{letter-spacing: 5px; font-size: 14pt;}
 #ttl{font-size: 14pt; word-spacing:5px;}
 #mainT{font-size:16pt; word-spacing:5px;}
 
 .flex-container {
     display: flex;
-	/*justify-content:center;*/
     align-items: flex-start;
-    height: auto; /* Высота контейнера */
-	margin-right:30px;
-	}
-
-.flex-item{
+    height: auto; 
+}
+.flex-item {
 	margin-left: 1rem;
 	padding: 10px;
-	}
-.flex-item:first-child { 
-	margin-left: 20px; 
-	}
+}
+
  
 .item1 { 
-	background: #0000;
-	width:30%;
-	}
+	min-width: 380px;
+    max-width: 400px;
+	padding:0;
+	margin:0;
+}
 .item2 { 
-	background: #0000;
-	width:50%; 
-	}
-.item3 { 
-	background: #F2F2F2; 
-	width:20%;
-	}
+	min-width: 400px;
+    max-width: 600px;
+	margin-left: 20px; 
+	padding:0 10px 10px 10px;
+	
+}
+.item3 {  
+	min-width: 240px;
+    max-width: 240px;
+	margin-left: 20px; 
+	padding:0;
+}
 
+.mar{
+	margin: 0;
+	padding:10px;
+}
+.greyC{
+	background: #F2F2F2;
+	border-radius:4px;
+	margin:0 0 20px 0;
+}
+	
 .item4 {  
-	width:35%
-	}
+	min-width: 380px;
+    max-width: 450px;
+	padding:0;
+	margin:0;
+}
 
-.sideLeft{
-	float:left; /* Выравнивание по левому краю */
-    margin: 7px 7px 7px 0;
-	}
+.sideLeft {
+    margin: 0 7px 7px 0;
+}
 
-.main{width:1320px}
+a:hover {
+    color: #FF0000;
+}
+
+.pic_size{
+    width: 380px;
+    height: 214px;
+}
